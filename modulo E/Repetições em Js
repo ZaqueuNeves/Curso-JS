@@ -1,0 +1,15 @@
+-----MODULO E-----
+-Repetições em js
+    ~Repetições com teste no inicio
+        var c = 1$
+        while(c <= 6){
+            console.log(´Passo ${c}´)
+            c++
+        }
+    ~Repetições com teste no final
+            var c = 1$
+        do {
+            console.log(´Passo ${c}´)
+            c++
+        } while(c <= 6)
+    ~Repetições com controle
