@@ -1,0 +1,75 @@
+-----MODULO B-----
+-COMANDOS BASICOS-
+-Armazenamento de dados
+    ~Variaveis
+        var nome = 'zaque'
+-Tratamento de dados
+    ~Formatando Strings
+        var s = 'JavaScript'
+        'Eu estou aprendendo s'    // nao faz interpolação
+        'Eu estou aprendendo'+s    // usa concatenação
+        'Eu estou aprendendo ${s}' // usa templete string
+        s.length                   // quantos caractes a string tem
+        s.toUpperCase()            // tudo para 'MAIÚSCULO'
+        s.toLowerCase()            // tudo para 'minusculo'
+    ~Formatando Numeros
+        var n1 = 1545.5
+        n1.toFixed(2)              // mostra duas casas dessimais
+        n1.toLocaleString('pt-BR', style: 'currency', currency:'BRL') // moeda brasileira
+         var vel = Number(val1.value)
+-Operadores com dados
+    ~Aritméticos
+        5+2 = 7
+        5-2 = 3
+        5*2 = 10
+        5/2 = 2.5
+        5%2 = 1
+        5**2= 25
+        ORDEN DOS PRECEDENTES
+            ()
+            **
+            */%
+            +-
+    ~Atribuição
+        Atribuição Simples
+            var a = 5+3
+        Auto-atribuição
+            var n = 3
+            n= n+4
+        Simplificado
+            n+=4
+        Incremento
+            n-- incremento + 1 ou -1
+            n++
+    ~Relacionais
+        5 > 2  = true
+        7 < 4  = false
+        8 >= 8 = true
+        9 <= 7 = false
+        5 == 5 = true
+        4 != 4 = false
+        Identidade
+            5 == 5 = true
+            5 == '5'= true
+            5 === '5'= false
+            5 === 5 = true
+    ~Logicos
+        Negação
+            !true= false
+            !false= true
+        Conjunção
+            true&&true   = true
+            true&&false  = false
+            false&&true  = false
+            false&&false = false
+        Disjunção
+            true||true   = true
+            true||false  = true
+            false||true  = true
+            false||false = false
+    ~Ternario
+        teste ? true : false
+#####PRECEDENTES#####
+~Aritméticos
+~Relacionais
+~Logicos
