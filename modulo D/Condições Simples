@@ -1,0 +1,24 @@
+-----MODULO D-----
+~Tipos de condições
+  -Condições Simples
+    if(condição){
+      true
+    }
+-Condições Compostas
+      if(condição){
+      true
+    } else {
+      false
+    }
+-Condições Aninhadas
+    if(condição1){
+        if(condição2){
+      true
+    } else {
+      false
+    }
+    }else {
+      false
+    } 
+-Condições Multiplas
+-Exercicios Propostos

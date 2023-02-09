@@ -1,0 +1,20 @@
+-----MODULO C-----
+~Entendendo DOM
+    -DOM-Document Object Model
+     (Modelo de objeto para Documentos) 
+    -Metodos de acesso
+        -Por marca
+            // getElementsByTagName()
+        -Por ID
+            // getElementById()
+        -Por Nome
+            // getElementByName()
+        -Por Classe
+            // getElementsByClassName()
+        -Por Seletor
+            // querySelector()
+            // querySelectorAll()
+~
+~Arvore DOM
+~Manipulando DOM
+
