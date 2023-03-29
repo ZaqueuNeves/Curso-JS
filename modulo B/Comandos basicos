@@ -2,7 +2,7 @@
 -COMANDOS BASICOS-
 -Armazenamento de dados
     ~Variaveis
-        var nome = 'zaque'
+        var nome = 'zaqueu'
 -Tratamento de dados
     ~Formatando Strings
         var s = 'JavaScript'
