@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <input type="number" id="n1">
+    <input type="number" id="n2">
+    <p id="area">ola</p>
+</body>
+<script>
+    var a = document.getElementById('area')
+    document.getElementById('n1').addEventListener('change', minha)
+    document.getElementById('n2').addEventListener('change', minha)
+    function minha(){
+        var x = Number(document.getElementById('n1').value)
+        var y = Number(document.getElementById('n2').value)
+        // var n= Number(x.value)
+        // var m = Number ( y.value)
+        var z = x+y
+    
+        a.innerText= z
+    }
+</script>
+</html>
