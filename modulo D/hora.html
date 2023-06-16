@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="hor">hora</h1>
+    <h1 id="minut">minutos</h1>
+    <h1 id="segundo">segundos</h1>
+</body>
+<script>
+    
+  
+       
+        var agora= new Date()
+        var hora =agora.getHours(document.getElementById('hor'))
+        var minuto= agora.getMinutes(document.getElementById('minut'))
+        var segundo= agora.getSeconds(document.getElementById('segundo'))    
+        
+    document.getElementById('hor').innerHTML=hora
+    document.getElementById('minut').innerHTML=minuto
+    document.getElementById('segundo').innerHTML=segundo
+</script>
+</html>   
