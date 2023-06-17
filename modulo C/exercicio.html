@@ -10,7 +10,8 @@
     <input type="number" id="n1">
     <input type="number" id="n2">
     <p id="area">ola</p>
-    <p></p>
+    <p id="caixa">0 caixa</p>
+    <p>0</p>
 </body>
 <script>
     var a = document.getElementById('area')
@@ -24,7 +25,8 @@
         var z = x+y
         var t = z%12
         var p= document.getElementsByTagName('p')[0]
-        var r= document.getElementsByTagName('p')[1]
+        var r= document.getElementsByTagName('p')[2]
+        var c= document.getElementById('caixa')
         if (t!= 0){
             p.style.color='red'
             r.style.color='red'
@@ -35,8 +37,10 @@
             p.style.color='green'
             r.innerHTML="ok"
         }
+        var s = Number.parseInt(z/12)
     
         a.innerText= t
+        c.innerHTML= s
     }
 </script>
 </html>
