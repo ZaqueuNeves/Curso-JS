@@ -10,6 +10,7 @@
     <input type="number" id="n1">
     <input type="number" id="n2">
     <p id="area">ola</p>
+    <p></p>
 </body>
 <script>
     var a = document.getElementById('area')
@@ -20,9 +21,22 @@
         var y = Number(document.getElementById('n2').value)
         // var n= Number(x.value)
         // var m = Number ( y.value)
-        var z = x*5
+        var z = x+y
+        var t = z%12
+        var p= document.getElementsByTagName('p')[0]
+        var r= document.getElementsByTagName('p')[1]
+        if (t!= 0){
+            p.style.color='red'
+            r.style.color='red'
+            r.innerHTML="nao fechou a caixa"
+        }
+        else {
+            r.style.color='green'
+            p.style.color='green'
+            r.innerHTML="ok"
+        }
     
-        a.innerText= `R$ ${z}`
+        a.innerText= t
     }
 </script>
 </html>
