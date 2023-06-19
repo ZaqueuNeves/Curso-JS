@@ -1,0 +1,15 @@
+----Variaveis Compostas----
+let num = [4,6,32,7]
+console.log(num)
+//4 , 6 , 32, 7
+
+num[3]=6// coloca o valor na posicao 3
+
+console.log(num)
+//4,6,32,6
+num.push(7)// cria um elemento depois do ultimo elemento existente e coloca o valor 7
+num.length // mostra a quantidade de elementos existente em um array
+num.sort{}// coloca os elementos em ordem crescente
+num.indexOf(7) // vai buscar um valor dentro do array
+               // se o valor naao existir no vetor vai retornar -1
+
